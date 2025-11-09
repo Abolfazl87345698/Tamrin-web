@@ -1,0 +1,56 @@
+body{  
+    background: url(../img/aa.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-rgb-500{   
+    background-color: rgba(102, 134, 203, 0.678);
+    padding: 2rem;
+}
+.text-blue-200{ 
+    color: blue;
+}
+.text-bg-rgb{    
+    color:rgb(21, 21, 20);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  font-family: 'Tahoma', sans-serif;
+  direction: rtl;
+}
+
+.lens-table {
+  width: 100%;
+  max-width: 700px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.lens-table th,
+.lens-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.lens-table th {
+  background-color: #e8e8e8;
+  font-weight: bold;
+}
+
+.lens-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.lens-table tr:hover {
+  background-color: #f0f0f0;
+}
